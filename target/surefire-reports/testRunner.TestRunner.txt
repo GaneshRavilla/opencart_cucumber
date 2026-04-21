@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.15 s <<< FAILURE! -- in testRunner.TestRunner
+Login with Valid Credentials.Successful Login with Valid Credentials -- Time elapsed: 17.66 s <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.LoginSteps.user_navigates_to_my_account_page(LoginSteps.java:64)
+	at ✽.the user should be redirected to the MyAccount Page(file:///C:/Users/Admin/Downloads/opencart_cucumber/./Features/Login.feature:9)
+
